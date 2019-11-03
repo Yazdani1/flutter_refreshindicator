@@ -48,8 +48,33 @@ class _SlideableDrawerState extends State<SlideableDrawer> {
                 icon: Icons.delete,
               ),
             ],
+//            dismissal: SlidableDismissal(
+//              child: SlidableDrawerDismissal(),
+//            ),
             dismissal: SlidableDismissal(
-              child: SlidableDrawerDismissal(),
+                child: SlidableDrawerDismissal(),
+                onWillDismiss: (actionType) {
+                  return showDialog<bool>(
+                    context: context,
+                    builder: (context) {
+                      return AlertDialog(
+                        title: Text('Delete'),
+                        content: Text('Item will be deleted'),
+                        actions: <Widget>[
+                          FlatButton(
+                            child: Text('Cancel'),
+                            onPressed: () => Navigator.of(context).pop(false),
+                          ),
+                          FlatButton(
+                            child: Text('Ok'),
+                            onPressed: () => Navigator.of(context).pop(true),
+                          ),
+                        ],
+                      );
+                    },
+                  );
+                },
+
             ),
             child: ListTile(
               title: Text("We are Learning"+'$index'),

@@ -20,6 +20,7 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: Text("Flutter Refresh"),
         backgroundColor: Colors.deepOrange,
+        automaticallyImplyLeading: false,
       ),
       body: Container(
         child: new RefreshIndicator(
