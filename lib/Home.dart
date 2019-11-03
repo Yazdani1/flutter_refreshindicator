@@ -21,7 +21,6 @@ class _HomeState extends State<Home> {
         title: Text("Flutter Refresh"),
         backgroundColor: Colors.deepOrange,
       ),
-
       body: Container(
         child: new RefreshIndicator(
           child: ListView(
