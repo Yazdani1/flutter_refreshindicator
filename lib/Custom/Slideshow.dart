@@ -9,6 +9,9 @@ class Slideshow extends StatefulWidget {
 class _SlideshowState extends State<Slideshow> {
   @override
   Widget build(BuildContext context) {
-    return new Container();
+    return new Scaffold(
+
+
+    );
   }
 }
