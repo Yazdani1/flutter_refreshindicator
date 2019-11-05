@@ -10,12 +10,10 @@ class _SlideshowState extends State<Slideshow> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-
       appBar: AppBar(
         title: Text("SlideShow"),
         backgroundColor: Colors.green,
       ),
-
     );
   }
 }
