@@ -61,11 +61,9 @@ class Introslider extends StatefulWidget {
 class _IntrosliderState extends State<Introslider> {
 
   List<Slide> slides = new List();
-
   @override
   void initState() {
     super.initState();
-
     slides.add(
       new Slide(
         title: "ERASER",
