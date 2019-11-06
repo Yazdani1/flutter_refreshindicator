@@ -90,9 +90,7 @@ class _IntrosliderState extends State<Introslider> {
       ),
     );
   }
-
   
-
   void onDonePress() {
     //Navigator.of(context).pop();
     Navigator.of(context).push(
