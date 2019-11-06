@@ -18,5 +18,5 @@ class _SlideshowState extends State<Slideshow> {
   }
 
 
-  
+
 }

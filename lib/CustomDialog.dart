@@ -11,7 +11,7 @@ class _CustomDialogState extends State<CustomDialog> {
     return new Scaffold(
 
       appBar: AppBar(
-        title: Text("Cusotm Dialog"),
+        title: Text("Cusotm Di0alog"),
         backgroundColor: Colors.purple,
       ),
 
