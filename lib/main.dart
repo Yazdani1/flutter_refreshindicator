@@ -9,7 +9,7 @@ import 'ProgressIndicator.dart';
 
 void main(){
   runApp(new MaterialApp(
-    home: MyHomePage(),
+    home: LiquidCircularProgressIndicatorPage(),
   ));
 }
 

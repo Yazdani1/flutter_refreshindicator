@@ -29,6 +29,7 @@ dependencies:
   flutter_slidable: ^0.5.4
   intro_slider: ^2.2.8
   progress_indicators: ^0.1.4
+  liquid_progress_indicator: ^0.3.2
 
 dev_dependencies:
   flutter_test:
