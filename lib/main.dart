@@ -6,10 +6,11 @@ import 'SlideableDrawer.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'IntroSlider.dart';
 import 'ProgressIndicator.dart';
+import 'Circularprogress.dart';
 
 void main(){
   runApp(new MaterialApp(
-    home: LiquidCircularProgressIndicatorPage(),
+    home: Circular(),
   ));
 }
 
