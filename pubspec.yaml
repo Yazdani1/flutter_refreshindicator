@@ -28,6 +28,7 @@ dependencies:
   bubbled_navigation_bar: ^0.0.4
   flutter_slidable: ^0.5.4
   intro_slider: ^2.2.8
+  progress_indicators: ^0.1.4
 
 dev_dependencies:
   flutter_test:
