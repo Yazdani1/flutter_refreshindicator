@@ -13,10 +13,6 @@ class _CustomDialogState extends State<CustomDialog> {
         title: Text("Cusotm Di0alog"),
         backgroundColor: Colors.purple,
       ),
-
-
-
-
     );
   }
 }
