@@ -29,7 +29,7 @@ class _BottomBarState extends State<BottomBar> {
           TabData(
               iconData: Icons.search,
               title: "Search",
-              tabColor: Colors.pink),
+              tabColor: Colors.deepOrange),
           TabData(
               iconData: Icons.access_alarm,
               title: "Alarm",
