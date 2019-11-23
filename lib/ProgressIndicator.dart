@@ -102,7 +102,7 @@ class _AnimatedLiquidCircularProgressIndicatorState
     final percentage = _animationController.value * 100;
     return Center(
       child: SizedBox(
-        width: 155.0,
+        width: 150.0,
         height: 150.0,
         child: LiquidCircularProgressIndicator(
           value: _animationController.value,
