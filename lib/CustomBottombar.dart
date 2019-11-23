@@ -24,7 +24,7 @@ class _BottomBarState extends State<BottomBar> {
         tabs: [
           TabData(
               iconData: Icons.home,
-              title: "Home",
+              title: "Homes",
               tabColor: Colors.deepPurple),
           TabData(
               iconData: Icons.search,
